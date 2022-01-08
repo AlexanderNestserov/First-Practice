@@ -1,0 +1,147 @@
+*{padding: 0;
+margin: 0;
+border: 0}
+*,*:before,*:after{-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;
+width: 100%;
+font-size: 100%;
+line-height: 1;
+font-size: 14px;
+-ms-text-size-adjust:100%;
+-moz-text-size-adjust:100%;
+}	
+input,button,textarea{
+	font-family: inherit;
+}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;
+border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style:none;
+ }
+ img{vertical-align:top;}
+ h1,h2,h3,h4,h5,h6{font-size: inherit;
+ 	font-weight: 400;}
+ body{
+ 	background:#e8e8e8 url("D://SteamLibrary/Загрузки/css_5 (1)/Верстка 1/IMG/Ellipse 1 copy.png")143px 105px  no-repeat;
+ }
+ .wrapper{
+	max-width: 842px;
+	padding:126px 0px 137px 0px;
+	margin:0 auto;
+ }
+ .wrapper-top{
+ }
+ .wrapper-top__context{
+	color:#273d46;
+	font-size: 14px;
+	text-transform: uppercase;
+	opacity:0.6;
+	letter-spacing: 2.8px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin:0 0 14px 0;
+	padding: 40px 1px 0 64px;
+	text-align: center;
+ }
+ .wrapper-top__title{
+	color:#273d46;
+	font-size: 36px;
+	line-height: 50px;
+	margin-left: 80px;
+	padding:0 13px 6px 0 ;
+	text-align: center;
+ }
+ .wrapper-img{
+	margin:58px 0 0 35px;
+ }
+.img{
+	box-shadow:0 15px 65px rgba(15,16,16, 0.15);
+	background-color: #fff;
+	padding:10px;
+}
+.wrapper-bottom{
+	margin:86px 20px 0px 70px;
+}
+.wrapper-bottom__p1{
+	color:#273d46;
+	font-size: 24px;
+	line-height: 40px;
+	opacity:0.8;
+	margin:0 0 40px 10px;
+}
+.wrapper-bottom__p2{
+	color:#273d46;
+	font-size: 24px;
+	line-height: 40px;
+	opacity:0.8;
+	margin:0 0 50px 10px;
+}
+.wrapper-bottom__list{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	margin:0 0 59px 0;
+}
+.wrapper-bottom__list li{
+	margin:0 0 15px 6px;
+	background:url("D://SteamLibrary/Загрузки/css_5 (1)/Верстка 1/IMG/check icon.png")left no-repeat;
+	padding: 0 0 0 35px;
+}
+.wrapper-bottom__list li:last-child{
+	margin:0 0 0 6px;
+}
+.wrapper-bottom__list li:nth-child(1){
+	color:#273d46;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.wrapper-bottom__list li:nth-child(2){
+	color:#80b7b3;
+	font-style: italic;
+}
+.wrapper-bottom__list li:nth-child(3){
+	color:#273d46;
+	font-weight: bold;
+}
+.wrapper-bottom__list li:nth-child(4){
+	color:#273d46;
+	text-decoration: line-through;
+}
+.wrapper-bottom__list li:nth-child(4) span{
+	opacity:0.3;
+}
+.wrapper-bottom__button{
+	height: 44px;
+	min-width:200px;
+	padding:0 30px;
+	background-color: #80b7b3;
+	box-shadow: 0px 5px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 5px 1px rgba(0,0,0,0.5);
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 24px;
+	color:white;
+	font-size: 14px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+}
+.wrapper-bottom__button_text{
+	background:url("D://SteamLibrary/Загрузки/css_5 (1)/Верстка 1/IMG/Shape 2.png")right no-repeat;
+	padding: 0 30px 0 0 ;
+}
+.wrapper-bottom__button:hover{
+	background-color: red;
+}
+.wrapper-bottom__button:active{
+	position: relative;
+	top:3px;
+	background-color: red;
+	box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 2px 1px rgba(0,0,0,0.5);
+}
